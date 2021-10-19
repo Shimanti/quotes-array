@@ -1,0 +1,28 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+ font-family: Courgette, sans-serif;
+ width: 80%;
+ margin: 0 auto;
+}
+
+button {
+  background: navy;
+  color: white;
+  border-radius: .5rem;
+  padding: 2% 5%;
+}
+
+button:hover,
+button:focus  {
+  background-color: #374151;
+  cursor: pointer;
+}
+
+
+#quote {
+  font-size: 3rem;
+}
